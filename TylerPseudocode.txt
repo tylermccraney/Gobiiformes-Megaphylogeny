@@ -1,0 +1,34 @@
+# This script runs several programs that download goby DNA sequences from GenBank, 
+# produces alignments, estimates a phylogeny, and plots tree.
+
+
+# Program 1 - PHLAWD
+# I need a file containing DNA sequences of several different genes from gobies in fasta 
+# format e.g., 12s, 16s, cytB, cox1, nad1, nad2, rag2, etc. (knownfile)
+
+# Begin by making configuration files for each gene in 'knownfile'
+    # Write python program that searches knownfile for gene name and writes it in config-
+    # uration files
+        # Loop through knownfile line-by-line
+            # find gene names delimited by '>'
+                # Write gene names to each configuration file
+
+# Use subprocess program to run PHLAWD program
+    # Specify knownfile and configuration files
+        # PHLAWD searches GenBank for goby sequences
+            # MUSCLE alignment program is implemented in PHLAWD
+                # Multiple sequence alignment file is output
+
+
+# Program 2 - RAxML or MrBayes
+# This step takes alignment file as input and estimates a phylogeny by either ML or Bayes-
+# ian method
+
+# Use subprocess program to run RAxML or MrBayes
+    # Outputs a tree file
+    
+
+# Program 3 - Plot phylogeny in R
+# This part takes the tree file as input and produces a beautiful phylogenetic tree.
+
+            
