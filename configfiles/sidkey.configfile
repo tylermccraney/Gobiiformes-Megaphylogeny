@@ -1,0 +1,10 @@
+clade = Gobiaria
+search = sidkey
+gene = sidkey
+mad =  0.01
+coverage = 0.2
+identity = 0.2
+db = /home/analysis/PHLAWD/vrt.db
+knownfile = sidkey.keep
+numthreads = 4
+excludelistfile = exclude

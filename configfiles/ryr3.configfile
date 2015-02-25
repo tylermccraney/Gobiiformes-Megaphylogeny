@@ -1,0 +1,10 @@
+clade = Gobiaria
+search = ryr3
+gene = ryr3
+mad =  0.01
+coverage = 0.2
+identity = 0.2
+db = /home/analysis/PHLAWD/vrt.db
+knownfile = ryr3.keep
+numthreads = 4
+excludelistfile = exclude

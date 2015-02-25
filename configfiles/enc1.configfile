@@ -1,0 +1,10 @@
+clade = Gobiaria
+search = enc1
+gene = enc1
+mad =  0.01
+coverage = 0.2
+identity = 0.2
+db = /home/analysis/PHLAWD/vrt.db
+knownfile = enc1.keep
+numthreads = 4
+excludelistfile = exclude

@@ -1,0 +1,10 @@
+clade = Gobiaria
+search = hoxc6a
+gene = hoxc6a
+mad =  0.01
+coverage = 0.2
+identity = 0.2
+db = /home/analysis/PHLAWD/vrt.db
+knownfile = hoxc6a.keep
+numthreads = 4
+excludelistfile = exclude

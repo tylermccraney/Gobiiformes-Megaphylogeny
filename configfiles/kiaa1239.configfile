@@ -1,0 +1,10 @@
+clade = Gobiaria
+search = kiaa1239
+gene = kiaa1239
+mad =  0.01
+coverage = 0.2
+identity = 0.2
+db = /home/analysis/PHLAWD/vrt.db
+knownfile = kiaa1239.keep
+numthreads = 4
+excludelistfile = exclude

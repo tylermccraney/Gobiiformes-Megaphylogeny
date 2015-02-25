@@ -1,0 +1,10 @@
+clade = Gobiaria
+search = myh6
+gene = myh6
+mad =  0.01
+coverage = 0.2
+identity = 0.2
+db = /home/analysis/PHLAWD/vrt.db
+knownfile = myh6.keep
+numthreads = 4
+excludelistfile = exclude

@@ -1,0 +1,10 @@
+clade = Gobiaria
+search = nd2
+gene = nd2
+mad =  0.01
+coverage = 0.2
+identity = 0.2
+db = /home/analysis/PHLAWD/vrt.db
+knownfile = nd2.keep
+numthreads = 4
+excludelistfile = exclude
