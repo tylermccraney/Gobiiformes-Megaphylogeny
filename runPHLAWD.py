@@ -8,7 +8,7 @@ import re
 import os
 
 # Tyler McCraney
-# February 25, 2015
+# February 26, 2015
 
 def PHLAWDrunner(): # This function automates PHLAWD to analyze multiple genes
     configfiles = glob.glob("*.configfile") # Create list of configfiles
